@@ -1,0 +1,6 @@
+[195100.821402] usb 3-1.1.1.2: new full-speed USB device number 46 using xhci_hcd
+[195100.923225] usb 3-1.1.1.2: New USB device found, idVendor=10c4, idProduct=8468, bcdDevice= 0.00
+[195100.923229] usb 3-1.1.1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[195100.923231] usb 3-1.1.1.2: Product: Tview
+[195100.923233] usb 3-1.1.1.2: Manufacturer: Tiqiaa
+[195100.927877] usbhid 3-1.1.1.2:1.0: couldn't find an input interrupt endpoint
