@@ -1,0 +1,475 @@
+<!-- Kodi Callbacks configuration file -->
+<settings version="2">
+    <setting id="E1.action" default="true"></setting>
+    <setting id="E1.afterIdleTime">60</setting>
+    <setting id="E1.data" default="true"></setting>
+    <setting id="E1.folder" default="true"></setting>
+    <setting id="E1.hour">13</setting>
+    <setting id="E1.hours" default="true">0</setting>
+    <setting id="E1.idleTime">60</setting>
+    <setting id="E1.ignore_directories" default="true">false</setting>
+    <setting id="E1.ignore_patterns" default="true"></setting>
+    <setting id="E1.matchIf" default="true"></setting>
+    <setting id="E1.method" default="true"></setting>
+    <setting id="E1.minute" default="true">0</setting>
+    <setting id="E1.minutes">30</setting>
+    <setting id="E1.patterns" default="true"></setting>
+    <setting id="E1.recursive" default="true">false</setting>
+    <setting id="E1.rejectIf" default="true"></setting>
+    <setting id="E1.seconds" default="true">0</setting>
+    <setting id="E1.sender" default="true"></setting>
+    <setting id="E1.task" default="true">Task 1</setting>
+    <setting id="E1.test" default="true"></setting>
+    <setting id="E1.type">32255</setting>
+    <setting id="E1.type-v">26</setting>
+    <setting id="E1.userargs" default="true"></setting>
+    <setting id="E1.windowIdC" default="true">0</setting>
+    <setting id="E1.windowIdO" default="true">0</setting>
+    <setting id="E1.ws_folder" default="true"></setting>
+    <setting id="E1.ws_ignore_directories" default="true">false</setting>
+    <setting id="E1.ws_ignore_patterns" default="true"></setting>
+    <setting id="E1.ws_patterns" default="true"></setting>
+    <setting id="E1.ws_recursive" default="true">false</setting>
+    <setting id="E10.action" default="true"></setting>
+    <setting id="E10.afterIdleTime">60</setting>
+    <setting id="E10.data" default="true"></setting>
+    <setting id="E10.folder" default="true"></setting>
+    <setting id="E10.hour">13</setting>
+    <setting id="E10.hours" default="true">0</setting>
+    <setting id="E10.idleTime">60</setting>
+    <setting id="E10.ignore_directories" default="true">false</setting>
+    <setting id="E10.ignore_patterns" default="true"></setting>
+    <setting id="E10.matchIf" default="true"></setting>
+    <setting id="E10.method" default="true"></setting>
+    <setting id="E10.minute" default="true">0</setting>
+    <setting id="E10.minutes">30</setting>
+    <setting id="E10.patterns" default="true"></setting>
+    <setting id="E10.recursive" default="true">false</setting>
+    <setting id="E10.rejectIf" default="true"></setting>
+    <setting id="E10.seconds" default="true">0</setting>
+    <setting id="E10.sender" default="true"></setting>
+    <setting id="E10.task" default="true">Task 1</setting>
+    <setting id="E10.test" default="true"></setting>
+    <setting id="E10.type" default="true">32229</setting>
+    <setting id="E10.type-v">32229</setting>
+    <setting id="E10.userargs" default="true"></setting>
+    <setting id="E10.windowIdC" default="true">0</setting>
+    <setting id="E10.windowIdO" default="true">0</setting>
+    <setting id="E10.ws_folder" default="true"></setting>
+    <setting id="E10.ws_ignore_directories" default="true">false</setting>
+    <setting id="E10.ws_ignore_patterns" default="true"></setting>
+    <setting id="E10.ws_patterns" default="true"></setting>
+    <setting id="E10.ws_recursive" default="true">false</setting>
+    <setting id="E2.action" default="true"></setting>
+    <setting id="E2.afterIdleTime">60</setting>
+    <setting id="E2.data" default="true"></setting>
+    <setting id="E2.folder" default="true"></setting>
+    <setting id="E2.hour">13</setting>
+    <setting id="E2.hours" default="true">0</setting>
+    <setting id="E2.idleTime">60</setting>
+    <setting id="E2.ignore_directories" default="true">false</setting>
+    <setting id="E2.ignore_patterns" default="true"></setting>
+    <setting id="E2.matchIf" default="true">interface="org.freedesktop.login1.Manager" member="Suspend"</setting>
+    <setting id="E2.method" default="true"></setting>
+    <setting id="E2.minute" default="true">0</setting>
+    <setting id="E2.minutes">30</setting>
+    <setting id="E2.patterns" default="true"></setting>
+    <setting id="E2.recursive" default="true">false</setting>
+    <setting id="E2.rejectIf" default="true"></setting>
+    <setting id="E2.seconds" default="true">0</setting>
+    <setting id="E2.sender" default="true"></setting>
+    <setting id="E2.task">Task 2</setting>
+    <setting id="E2.test" default="true"></setting>
+    <setting id="E2.type">32241</setting>
+    <setting id="E2.type-v">12</setting>
+    <setting id="E2.userargs" default="true"></setting>
+    <setting id="E2.windowIdC" default="true">0</setting>
+    <setting id="E2.windowIdO" default="true">0</setting>
+    <setting id="E2.ws_folder" default="true"></setting>
+    <setting id="E2.ws_ignore_directories" default="true">false</setting>
+    <setting id="E2.ws_ignore_patterns" default="true"></setting>
+    <setting id="E2.ws_patterns" default="true"></setting>
+    <setting id="E2.ws_recursive" default="true">false</setting>
+    <setting id="E3.action" default="true"></setting>
+    <setting id="E3.afterIdleTime">60</setting>
+    <setting id="E3.data" default="true"></setting>
+    <setting id="E3.folder" default="true"></setting>
+    <setting id="E3.hour">13</setting>
+    <setting id="E3.hours" default="true">0</setting>
+    <setting id="E3.idleTime">60</setting>
+    <setting id="E3.ignore_directories" default="true">false</setting>
+    <setting id="E3.ignore_patterns" default="true"></setting>
+    <setting id="E3.matchIf" default="true"></setting>
+    <setting id="E3.method" default="true"></setting>
+    <setting id="E3.minute" default="true">0</setting>
+    <setting id="E3.minutes">30</setting>
+    <setting id="E3.patterns" default="true"></setting>
+    <setting id="E3.recursive" default="true">false</setting>
+    <setting id="E3.rejectIf" default="true"></setting>
+    <setting id="E3.seconds" default="true">0</setting>
+    <setting id="E3.sender" default="true"></setting>
+    <setting id="E3.task" default="true">Task 1</setting>
+    <setting id="E3.test" default="true"></setting>
+    <setting id="E3.type" default="true">32229</setting>
+    <setting id="E3.type-v">32229</setting>
+    <setting id="E3.userargs" default="true"></setting>
+    <setting id="E3.windowIdC" default="true">0</setting>
+    <setting id="E3.windowIdO" default="true">0</setting>
+    <setting id="E3.ws_folder" default="true"></setting>
+    <setting id="E3.ws_ignore_directories" default="true">false</setting>
+    <setting id="E3.ws_ignore_patterns" default="true"></setting>
+    <setting id="E3.ws_patterns" default="true"></setting>
+    <setting id="E3.ws_recursive" default="true">false</setting>
+    <setting id="E4.action" default="true"></setting>
+    <setting id="E4.afterIdleTime">60</setting>
+    <setting id="E4.data" default="true"></setting>
+    <setting id="E4.folder" default="true"></setting>
+    <setting id="E4.hour">13</setting>
+    <setting id="E4.hours" default="true">0</setting>
+    <setting id="E4.idleTime">60</setting>
+    <setting id="E4.ignore_directories" default="true">false</setting>
+    <setting id="E4.ignore_patterns" default="true"></setting>
+    <setting id="E4.matchIf" default="true"></setting>
+    <setting id="E4.method" default="true"></setting>
+    <setting id="E4.minute" default="true">0</setting>
+    <setting id="E4.minutes">30</setting>
+    <setting id="E4.patterns" default="true"></setting>
+    <setting id="E4.recursive" default="true">false</setting>
+    <setting id="E4.rejectIf" default="true"></setting>
+    <setting id="E4.seconds" default="true">0</setting>
+    <setting id="E4.sender" default="true"></setting>
+    <setting id="E4.task" default="true">Task 1</setting>
+    <setting id="E4.test" default="true"></setting>
+    <setting id="E4.type" default="true">32229</setting>
+    <setting id="E4.type-v">32229</setting>
+    <setting id="E4.userargs" default="true"></setting>
+    <setting id="E4.windowIdC" default="true">0</setting>
+    <setting id="E4.windowIdO" default="true">0</setting>
+    <setting id="E4.ws_folder" default="true"></setting>
+    <setting id="E4.ws_ignore_directories" default="true">false</setting>
+    <setting id="E4.ws_ignore_patterns" default="true"></setting>
+    <setting id="E4.ws_patterns" default="true"></setting>
+    <setting id="E4.ws_recursive" default="true">false</setting>
+    <setting id="E5.action" default="true"></setting>
+    <setting id="E5.afterIdleTime">60</setting>
+    <setting id="E5.data" default="true"></setting>
+    <setting id="E5.folder" default="true"></setting>
+    <setting id="E5.hour">13</setting>
+    <setting id="E5.hours" default="true">0</setting>
+    <setting id="E5.idleTime">60</setting>
+    <setting id="E5.ignore_directories" default="true">false</setting>
+    <setting id="E5.ignore_patterns" default="true"></setting>
+    <setting id="E5.matchIf" default="true"></setting>
+    <setting id="E5.method" default="true"></setting>
+    <setting id="E5.minute" default="true">0</setting>
+    <setting id="E5.minutes">30</setting>
+    <setting id="E5.patterns" default="true"></setting>
+    <setting id="E5.recursive" default="true">false</setting>
+    <setting id="E5.rejectIf" default="true"></setting>
+    <setting id="E5.seconds" default="true">0</setting>
+    <setting id="E5.sender" default="true"></setting>
+    <setting id="E5.task" default="true">Task 1</setting>
+    <setting id="E5.test" default="true"></setting>
+    <setting id="E5.type" default="true">32229</setting>
+    <setting id="E5.type-v">32229</setting>
+    <setting id="E5.userargs" default="true"></setting>
+    <setting id="E5.windowIdC" default="true">0</setting>
+    <setting id="E5.windowIdO" default="true">0</setting>
+    <setting id="E5.ws_folder" default="true"></setting>
+    <setting id="E5.ws_ignore_directories" default="true">false</setting>
+    <setting id="E5.ws_ignore_patterns" default="true"></setting>
+    <setting id="E5.ws_patterns" default="true"></setting>
+    <setting id="E5.ws_recursive" default="true">false</setting>
+    <setting id="E6.action" default="true"></setting>
+    <setting id="E6.afterIdleTime">60</setting>
+    <setting id="E6.data" default="true"></setting>
+    <setting id="E6.folder" default="true"></setting>
+    <setting id="E6.hour">13</setting>
+    <setting id="E6.hours" default="true">0</setting>
+    <setting id="E6.idleTime">60</setting>
+    <setting id="E6.ignore_directories" default="true">false</setting>
+    <setting id="E6.ignore_patterns" default="true"></setting>
+    <setting id="E6.matchIf" default="true"></setting>
+    <setting id="E6.method" default="true"></setting>
+    <setting id="E6.minute" default="true">0</setting>
+    <setting id="E6.minutes">30</setting>
+    <setting id="E6.patterns" default="true"></setting>
+    <setting id="E6.recursive" default="true">false</setting>
+    <setting id="E6.rejectIf" default="true"></setting>
+    <setting id="E6.seconds" default="true">0</setting>
+    <setting id="E6.sender" default="true"></setting>
+    <setting id="E6.task" default="true">Task 1</setting>
+    <setting id="E6.test" default="true"></setting>
+    <setting id="E6.type" default="true">32229</setting>
+    <setting id="E6.type-v">32229</setting>
+    <setting id="E6.userargs" default="true"></setting>
+    <setting id="E6.windowIdC" default="true">0</setting>
+    <setting id="E6.windowIdO" default="true">0</setting>
+    <setting id="E6.ws_folder" default="true"></setting>
+    <setting id="E6.ws_ignore_directories" default="true">false</setting>
+    <setting id="E6.ws_ignore_patterns" default="true"></setting>
+    <setting id="E6.ws_patterns" default="true"></setting>
+    <setting id="E6.ws_recursive" default="true">false</setting>
+    <setting id="E7.action" default="true"></setting>
+    <setting id="E7.afterIdleTime">60</setting>
+    <setting id="E7.data" default="true"></setting>
+    <setting id="E7.folder" default="true"></setting>
+    <setting id="E7.hour">13</setting>
+    <setting id="E7.hours" default="true">0</setting>
+    <setting id="E7.idleTime">60</setting>
+    <setting id="E7.ignore_directories" default="true">false</setting>
+    <setting id="E7.ignore_patterns" default="true"></setting>
+    <setting id="E7.matchIf" default="true"></setting>
+    <setting id="E7.method" default="true"></setting>
+    <setting id="E7.minute" default="true">0</setting>
+    <setting id="E7.minutes">30</setting>
+    <setting id="E7.patterns" default="true"></setting>
+    <setting id="E7.recursive" default="true">false</setting>
+    <setting id="E7.rejectIf" default="true"></setting>
+    <setting id="E7.seconds" default="true">0</setting>
+    <setting id="E7.sender" default="true"></setting>
+    <setting id="E7.task" default="true">Task 1</setting>
+    <setting id="E7.test" default="true"></setting>
+    <setting id="E7.type" default="true">32229</setting>
+    <setting id="E7.type-v">32229</setting>
+    <setting id="E7.userargs" default="true"></setting>
+    <setting id="E7.windowIdC" default="true">0</setting>
+    <setting id="E7.windowIdO" default="true">0</setting>
+    <setting id="E7.ws_folder" default="true"></setting>
+    <setting id="E7.ws_ignore_directories" default="true">false</setting>
+    <setting id="E7.ws_ignore_patterns" default="true"></setting>
+    <setting id="E7.ws_patterns" default="true"></setting>
+    <setting id="E7.ws_recursive" default="true">false</setting>
+    <setting id="E8.action" default="true"></setting>
+    <setting id="E8.afterIdleTime">60</setting>
+    <setting id="E8.data" default="true"></setting>
+    <setting id="E8.folder" default="true"></setting>
+    <setting id="E8.hour">13</setting>
+    <setting id="E8.hours" default="true">0</setting>
+    <setting id="E8.idleTime">60</setting>
+    <setting id="E8.ignore_directories" default="true">false</setting>
+    <setting id="E8.ignore_patterns" default="true"></setting>
+    <setting id="E8.matchIf" default="true"></setting>
+    <setting id="E8.method" default="true"></setting>
+    <setting id="E8.minute" default="true">0</setting>
+    <setting id="E8.minutes">30</setting>
+    <setting id="E8.patterns" default="true"></setting>
+    <setting id="E8.recursive" default="true">false</setting>
+    <setting id="E8.rejectIf" default="true"></setting>
+    <setting id="E8.seconds" default="true">0</setting>
+    <setting id="E8.sender" default="true"></setting>
+    <setting id="E8.task" default="true">Task 1</setting>
+    <setting id="E8.test" default="true"></setting>
+    <setting id="E8.type" default="true">32229</setting>
+    <setting id="E8.type-v">32229</setting>
+    <setting id="E8.userargs" default="true"></setting>
+    <setting id="E8.windowIdC" default="true">0</setting>
+    <setting id="E8.windowIdO" default="true">0</setting>
+    <setting id="E8.ws_folder" default="true"></setting>
+    <setting id="E8.ws_ignore_directories" default="true">false</setting>
+    <setting id="E8.ws_ignore_patterns" default="true"></setting>
+    <setting id="E8.ws_patterns" default="true"></setting>
+    <setting id="E8.ws_recursive" default="true">false</setting>
+    <setting id="E9.action" default="true"></setting>
+    <setting id="E9.afterIdleTime">60</setting>
+    <setting id="E9.data" default="true"></setting>
+    <setting id="E9.folder" default="true"></setting>
+    <setting id="E9.hour">13</setting>
+    <setting id="E9.hours" default="true">0</setting>
+    <setting id="E9.idleTime">60</setting>
+    <setting id="E9.ignore_directories" default="true">false</setting>
+    <setting id="E9.ignore_patterns" default="true"></setting>
+    <setting id="E9.matchIf" default="true"></setting>
+    <setting id="E9.method" default="true"></setting>
+    <setting id="E9.minute" default="true">0</setting>
+    <setting id="E9.minutes">30</setting>
+    <setting id="E9.patterns" default="true"></setting>
+    <setting id="E9.recursive" default="true">false</setting>
+    <setting id="E9.rejectIf" default="true"></setting>
+    <setting id="E9.seconds" default="true">0</setting>
+    <setting id="E9.sender" default="true"></setting>
+    <setting id="E9.task" default="true">Task 1</setting>
+    <setting id="E9.test" default="true"></setting>
+    <setting id="E9.type" default="true">32229</setting>
+    <setting id="E9.type-v">32229</setting>
+    <setting id="E9.userargs" default="true"></setting>
+    <setting id="E9.windowIdC" default="true">0</setting>
+    <setting id="E9.windowIdO" default="true">0</setting>
+    <setting id="E9.ws_folder" default="true"></setting>
+    <setting id="E9.ws_ignore_directories" default="true">false</setting>
+    <setting id="E9.ws_ignore_patterns" default="true"></setting>
+    <setting id="E9.ws_patterns" default="true"></setting>
+    <setting id="E9.ws_recursive" default="true">false</setting>
+    <setting id="LogFreq">500</setting>
+    <setting id="loglevel" default="true">false</setting>
+    <setting id="logsettings" default="true"></setting>
+    <setting id="LoopFreq">500</setting>
+    <setting id="Notify" default="true">false</setting>
+    <setting id="regen" default="true"></setting>
+    <setting id="restorebackup" default="true"></setting>
+    <setting id="silent_install" default="true">false</setting>
+    <setting id="T1.builtin" default="true"></setting>
+    <setting id="T1.content-type" default="true">application/json</setting>
+    <setting id="T1.http" default="true"></setting>
+    <setting id="T1.import" default="true">false</setting>
+    <setting id="T1.jsonnotify" default="true">kodi.callbacks</setting>
+    <setting id="T1.maxrunning">1</setting>
+    <setting id="T1.maxruns">-1</setting>
+    <setting id="T1.pass" default="true"></setting>
+    <setting id="T1.pythonfile" default="true"></setting>
+    <setting id="T1.refractory">20</setting>
+    <setting id="T1.request-type" default="true">GET</setting>
+    <setting id="T1.scriptfile">/home/user/local/kodi_control/kodi_callback_startup.sh</setting>
+    <setting id="T1.type">script</setting>
+    <setting id="T1.use_shell" default="true">false</setting>
+    <setting id="T1.user" default="true"></setting>
+    <setting id="T1.waitForCompletion">true</setting>
+    <setting id="T10.builtin" default="true"></setting>
+    <setting id="T10.content-type" default="true">application/json</setting>
+    <setting id="T10.http" default="true"></setting>
+    <setting id="T10.import" default="true">false</setting>
+    <setting id="T10.jsonnotify" default="true">kodi.callbacks</setting>
+    <setting id="T10.maxrunning">-1</setting>
+    <setting id="T10.maxruns">-1</setting>
+    <setting id="T10.pass" default="true"></setting>
+    <setting id="T10.pythonfile" default="true"></setting>
+    <setting id="T10.refractory">-1</setting>
+    <setting id="T10.request-type" default="true">GET</setting>
+    <setting id="T10.scriptfile" default="true"></setting>
+    <setting id="T10.type" default="true">none</setting>
+    <setting id="T10.use_shell" default="true">false</setting>
+    <setting id="T10.user" default="true"></setting>
+    <setting id="T10.waitForCompletion">true</setting>
+    <setting id="T2.builtin" default="true"></setting>
+    <setting id="T2.content-type" default="true">application/json</setting>
+    <setting id="T2.http" default="true"></setting>
+    <setting id="T2.import" default="true">false</setting>
+    <setting id="T2.jsonnotify" default="true">kodi.callbacks</setting>
+    <setting id="T2.maxrunning">1</setting>
+    <setting id="T2.maxruns">-1</setting>
+    <setting id="T2.pass" default="true"></setting>
+    <setting id="T2.pythonfile" default="true"></setting>
+    <setting id="T2.refractory">-1</setting>
+    <setting id="T2.request-type" default="true">GET</setting>
+    <setting id="T2.scriptfile">/home/user/local/kodi_control/kodi_callback_shutdown.sh</setting>
+    <setting id="T2.type">script</setting>
+    <setting id="T2.use_shell" default="true">false</setting>
+    <setting id="T2.user" default="true"></setting>
+    <setting id="T2.waitForCompletion">true</setting>
+    <setting id="T3.builtin" default="true"></setting>
+    <setting id="T3.content-type" default="true">application/json</setting>
+    <setting id="T3.http" default="true"></setting>
+    <setting id="T3.import" default="true">false</setting>
+    <setting id="T3.jsonnotify" default="true">kodi.callbacks</setting>
+    <setting id="T3.maxrunning">-1</setting>
+    <setting id="T3.maxruns">-1</setting>
+    <setting id="T3.pass" default="true"></setting>
+    <setting id="T3.pythonfile" default="true"></setting>
+    <setting id="T3.refractory">-1</setting>
+    <setting id="T3.request-type" default="true">GET</setting>
+    <setting id="T3.scriptfile" default="true"></setting>
+    <setting id="T3.type" default="true">none</setting>
+    <setting id="T3.use_shell" default="true">false</setting>
+    <setting id="T3.user" default="true"></setting>
+    <setting id="T3.waitForCompletion">true</setting>
+    <setting id="T4.builtin" default="true"></setting>
+    <setting id="T4.content-type" default="true">application/json</setting>
+    <setting id="T4.http" default="true"></setting>
+    <setting id="T4.import" default="true">false</setting>
+    <setting id="T4.jsonnotify" default="true">kodi.callbacks</setting>
+    <setting id="T4.maxrunning">-1</setting>
+    <setting id="T4.maxruns">-1</setting>
+    <setting id="T4.pass" default="true"></setting>
+    <setting id="T4.pythonfile" default="true"></setting>
+    <setting id="T4.refractory">-1</setting>
+    <setting id="T4.request-type" default="true">GET</setting>
+    <setting id="T4.scriptfile" default="true"></setting>
+    <setting id="T4.type" default="true">none</setting>
+    <setting id="T4.use_shell" default="true">false</setting>
+    <setting id="T4.user" default="true"></setting>
+    <setting id="T4.waitForCompletion">true</setting>
+    <setting id="T5.builtin" default="true"></setting>
+    <setting id="T5.content-type" default="true">application/json</setting>
+    <setting id="T5.http" default="true"></setting>
+    <setting id="T5.import" default="true">false</setting>
+    <setting id="T5.jsonnotify" default="true">kodi.callbacks</setting>
+    <setting id="T5.maxrunning">-1</setting>
+    <setting id="T5.maxruns">-1</setting>
+    <setting id="T5.pass" default="true"></setting>
+    <setting id="T5.pythonfile" default="true"></setting>
+    <setting id="T5.refractory">-1</setting>
+    <setting id="T5.request-type" default="true">GET</setting>
+    <setting id="T5.scriptfile" default="true"></setting>
+    <setting id="T5.type" default="true">none</setting>
+    <setting id="T5.use_shell" default="true">false</setting>
+    <setting id="T5.user" default="true"></setting>
+    <setting id="T5.waitForCompletion">true</setting>
+    <setting id="T6.builtin" default="true"></setting>
+    <setting id="T6.content-type" default="true">application/json</setting>
+    <setting id="T6.http" default="true"></setting>
+    <setting id="T6.import" default="true">false</setting>
+    <setting id="T6.jsonnotify" default="true">kodi.callbacks</setting>
+    <setting id="T6.maxrunning">-1</setting>
+    <setting id="T6.maxruns">-1</setting>
+    <setting id="T6.pass" default="true"></setting>
+    <setting id="T6.pythonfile" default="true"></setting>
+    <setting id="T6.refractory">-1</setting>
+    <setting id="T6.request-type" default="true">GET</setting>
+    <setting id="T6.scriptfile" default="true"></setting>
+    <setting id="T6.type" default="true">none</setting>
+    <setting id="T6.use_shell" default="true">false</setting>
+    <setting id="T6.user" default="true"></setting>
+    <setting id="T6.waitForCompletion">true</setting>
+    <setting id="T7.builtin" default="true"></setting>
+    <setting id="T7.content-type" default="true">application/json</setting>
+    <setting id="T7.http" default="true"></setting>
+    <setting id="T7.import" default="true">false</setting>
+    <setting id="T7.jsonnotify" default="true">kodi.callbacks</setting>
+    <setting id="T7.maxrunning">-1</setting>
+    <setting id="T7.maxruns">-1</setting>
+    <setting id="T7.pass" default="true"></setting>
+    <setting id="T7.pythonfile" default="true"></setting>
+    <setting id="T7.refractory">-1</setting>
+    <setting id="T7.request-type" default="true">GET</setting>
+    <setting id="T7.scriptfile" default="true"></setting>
+    <setting id="T7.type" default="true">none</setting>
+    <setting id="T7.use_shell" default="true">false</setting>
+    <setting id="T7.user" default="true"></setting>
+    <setting id="T7.waitForCompletion">true</setting>
+    <setting id="T8.builtin" default="true"></setting>
+    <setting id="T8.content-type" default="true">application/json</setting>
+    <setting id="T8.http" default="true"></setting>
+    <setting id="T8.import" default="true">false</setting>
+    <setting id="T8.jsonnotify" default="true">kodi.callbacks</setting>
+    <setting id="T8.maxrunning">-1</setting>
+    <setting id="T8.maxruns">-1</setting>
+    <setting id="T8.pass" default="true"></setting>
+    <setting id="T8.pythonfile" default="true"></setting>
+    <setting id="T8.refractory">-1</setting>
+    <setting id="T8.request-type" default="true">GET</setting>
+    <setting id="T8.scriptfile" default="true"></setting>
+    <setting id="T8.type" default="true">none</setting>
+    <setting id="T8.use_shell" default="true">false</setting>
+    <setting id="T8.user" default="true"></setting>
+    <setting id="T8.waitForCompletion">true</setting>
+    <setting id="T9.builtin" default="true"></setting>
+    <setting id="T9.content-type" default="true">application/json</setting>
+    <setting id="T9.http" default="true"></setting>
+    <setting id="T9.import" default="true">false</setting>
+    <setting id="T9.jsonnotify" default="true">kodi.callbacks</setting>
+    <setting id="T9.maxrunning">-1</setting>
+    <setting id="T9.maxruns">-1</setting>
+    <setting id="T9.pass" default="true"></setting>
+    <setting id="T9.pythonfile" default="true"></setting>
+    <setting id="T9.refractory">-1</setting>
+    <setting id="T9.request-type" default="true">GET</setting>
+    <setting id="T9.scriptfile" default="true"></setting>
+    <setting id="T9.type" default="true">none</setting>
+    <setting id="T9.use_shell" default="true">false</setting>
+    <setting id="T9.user" default="true"></setting>
+    <setting id="T9.waitForCompletion">true</setting>
+    <setting id="TaskFreq">100</setting>
+    <setting id="test" default="true"></setting>
+    <setting id="updatefromzip" default="true"></setting>
+    <setting id="uploadlog" default="true"></setting>
+</settings>
