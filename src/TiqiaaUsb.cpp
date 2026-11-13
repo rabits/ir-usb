@@ -62,8 +62,11 @@ bool TiqiaaUsbIr::Open() {
     }
 
 
-    libusb_close(dev_h);
-    dev_h = NULL;
+    if( dev_h ) {
+        libusb_release_interface(dev_h, 0);
+        libusb_close(dev_h);
+        dev_h = NULL;
+    }
     libusb_exit(NULL);
 
     return false;
@@ -71,9 +74,12 @@ bool TiqiaaUsbIr::Open() {
 
 bool TiqiaaUsbIr::Close() {
     if( !IsOpen() ) return false;
-    ReadActive = false;
+    // the reply to the idle command arrives on the read thread, so stop that
+    // thread only after the device has confirmed idle mode
     SetIdleMode();
+    ReadActive = false;
     pthread_join(read_thread_info.thread_id, NULL);
+    libusb_release_interface(dev_h, 0);
     libusb_close(dev_h);
     dev_h = NULL;
     libusb_exit(NULL);
@@ -366,7 +372,7 @@ void TiqiaaUsbIr::ReadThreadFn() {
 
     FragmCount = 0; // not receiving packet
     while( ReadActive ) {
-        if( libusb_bulk_transfer(dev_h, ReadPipeId, FragmBuf, 64, &UsbRxSize, 0) < 0 )
+        if( libusb_bulk_transfer(dev_h, ReadPipeId, FragmBuf, 64, &UsbRxSize, 200) < 0 )
             continue;
 
         if( !((UsbRxSize > sizeof(TiqiaaUsbIr_Report2Header)) && (ReportHdr->ReportId == ReadReportId) && ((uint32_t)(ReportHdr->FragmSize + 2) <= UsbRxSize)) )
